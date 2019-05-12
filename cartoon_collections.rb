@@ -17,7 +17,7 @@ end
 # summon_captain_planet(planeteer_calls)
 
 def long_planeteer_calls(calls_char)
-# used .any method to if ay of the calls are greater than 4
+# used .any method to if any of the calls are greater than 4
 calls_char.any? { |i| i.length > 4}
 end
 
